@@ -4,9 +4,7 @@ $(document).ready(function() {
       $(".toggle").hide();
       $("#create-account").show();
   });
-});
 
-$(document).ready(function() {
   $("#signin-link").click(function(e){
       e.preventDefault();
       $(".toggle").hide();
