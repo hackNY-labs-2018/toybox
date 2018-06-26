@@ -2,20 +2,22 @@
 <html>
 <head>
   <link rel="stylesheet" href="login.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="login.js"></script>
 </head>
 
 <body>
   <div class="login-page">
     <div class="form">
-      <img id="icon" src="https://images.wagwalkingweb.com/media/breed/pembroke-welsh-corgi/appearance/pembroke-welsh-corgi.png?auto=compress&fit=max">
+      <img id="icon" src="https://www.cognitivetoybox.com/uploads/3/7/0/3/37038029/ctb-logo-november-2016.png">
       <form class="register-form toggle" id="create-account">
-        <input type="text" placeholder="name"/>
+        <input type="text" placeholder="username"/>
         <input type="password" placeholder="password"/>
         <input type="text" placeholder="email address"/>
         <button>create</button>
-        <p class="message">Already registered? <a href="#">Sign In</a></p>
+        <p class="message">Already registered? <a id="signin-link" href="#">Sign In</a></p>
       </form>
-      <form class="login-form toggle">
+      <form class="login-form toggle" id="sign-in">
         <input type="text" placeholder="username"/>
         <input type="password" placeholder="password"/>
         <button>login</button>
@@ -24,5 +26,3 @@
     </div>
   </div>
 </body>
-
-<script src="login.js"></script>
